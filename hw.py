@@ -23,4 +23,4 @@ elif Number <= 8:
 elif Number >= 12:
     print("Well don't that beat all")
 else:
-    print("now your not paying attention to the rules")
+    print("now you're not paying attention to the rules")
