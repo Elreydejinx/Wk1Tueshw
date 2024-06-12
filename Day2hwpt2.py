@@ -23,3 +23,18 @@ else:
     print("there are other places to go too")
 
 #Quick Decisions: The Event Planner 
+
+attendees = input("Enter number of attendees:")
+
+venue = input("larege hall") if attendees > 100 else attendees < 100 ("conference room") 
+print("venue")
+
+# Catering Choices
+
+Food = "vegetarian" 
+
+if Food == "vegetarian":
+    print("Veggie Delight Caterers? yes/no:")
+
+elif Food == "steak":
+        print("Gourmet Meals Caterers")
