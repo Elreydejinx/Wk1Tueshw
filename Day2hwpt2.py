@@ -17,3 +17,9 @@ elif place == "cave":
         print("you missed the hole there!")
     elif action == "proceed in the dark":
         print("wow that's odd i can't see anything passed the entrence!")
+if place == "jungle":
+    pass # add this in later
+else:
+    print("there are other places to go too")
+
+#Quick Decisions: The Event Planner 
