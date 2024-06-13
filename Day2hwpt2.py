@@ -19,22 +19,32 @@ elif place == "cave":
         print("wow that's odd i can't see anything passed the entrence!")
 if place == "jungle":
     pass # add this in later
-else:
     print("there are other places to go too")
 
 #Quick Decisions: The Event Planner 
 
-attendees = input("Enter number of attendees:")
+attendees = input("Enter number of attendees:")  
 
-venue = input("larege hall") if attendees > 100 else attendees < 100 ("conference room") 
-print("venue")
+y = int(attendees)
 
+x = int(attendees)
+
+if y >= 100:
+    print("large hall")
+elif x <= 99:
+    print("conference room")
+
+ 
+  
 # Catering Choices
 
 Food = "vegetarian" 
 
 if Food == "vegetarian":
     print("Veggie Delight Caterers? yes/no:")
-
+if "yes":
+    print("great lets eat!")
+    if "no":
+        print("steak")
 elif Food == "steak":
         print("Gourmet Meals Caterers")
